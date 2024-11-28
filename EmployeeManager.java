@@ -4,6 +4,14 @@ import java.util.*;
 
 public class EmployeeManager {
     public static void main(String[] args) {
+        // for task 2
+        if(args.length != 1)
+        {
+            System.out.println("Wrong argument. Please provide the true one");
+            return;
+        }
+
+
         // Check arguments
         if (args[0].equals("l")) {
             System.out.println("Loading data ...");
