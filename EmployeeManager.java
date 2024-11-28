@@ -17,6 +17,7 @@ public class EmployeeManager {
                     System.out.println(emp);
                 }
             } 
+            // updating catch argument
             catch (Exception e) {}
             System.out.println("Data Loaded.");
         } 
@@ -33,6 +34,7 @@ public class EmployeeManager {
                 int idx = rand.nextInt(e.length);
                 System.out.println(e[idx]);
             } 
+            // updating catch argument
             catch (Exception e) {}
             System.out.println("Data Loaded.");
         } 
@@ -45,6 +47,7 @@ public class EmployeeManager {
                 w.write(", " + n);
                 w.close();
             } 
+            // updating catch argument
             catch (Exception e) {}
             System.out.println("Data Loaded.");
         } 
@@ -65,6 +68,7 @@ public class EmployeeManager {
                     }
                 }
             } 
+            // updating catch argument
             catch (Exception e) {}
             System.out.println("Data Loaded.");
         } 
@@ -89,7 +93,8 @@ public class EmployeeManager {
                     }
                 }
                 System.out.println(count + " word(s) found " + chars.length);
-            } 
+            }
+            // updating catch argument 
             catch (Exception e) {}
             System.out.println("Data Loaded.");
         } 
@@ -112,6 +117,7 @@ public class EmployeeManager {
                 w.write(String.join(",", e));
                 w.close();
             } 
+            // updating catch argument
             catch (Exception e) {}
             System.out.println("Data Updated.");
         } 
@@ -131,6 +137,7 @@ public class EmployeeManager {
                 w.write(String.join(",", list));
                 w.close();
             } 
+            // updating catch argument
             catch (Exception e) {}
             System.out.println("Data Deleted.");
         }
